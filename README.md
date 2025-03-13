@@ -47,7 +47,7 @@ SELECT manufacturer, COUNT(*) AS car_count FROM cars GROUP BY manufacturer ORDER
 📂 cars-sold-in-uae-analysis
  ├── 📄 README.md      # Project documentation
  ├── 📂 data           # Folder containing raw and processed data
- │   ├── 📄 cars.sql   # MySQL script for setting up the database
+ │   ├── 📄 script.sql   # MySQL script for setting up the database
  │   ├── 📄 data.csv   # CSV export of key data
  │   ├── 📄 results.csv # Processed results from SQL analysis
 ```
