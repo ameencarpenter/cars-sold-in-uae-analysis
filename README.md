@@ -49,4 +49,5 @@ SELECT manufacturer, COUNT(*) AS car_count FROM cars GROUP BY manufacturer ORDER
  ├── 📂 data           # Folder containing raw and processed data
  │   ├── 📄 cars.sql   # MySQL script for setting up the database
  │   ├── 📄 data.csv   # CSV export of key data
+ │   ├── 📄 results.csv # Processed results from SQL analysis
 ```
