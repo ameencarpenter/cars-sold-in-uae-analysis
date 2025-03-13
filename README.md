@@ -1,7 +1,7 @@
 # MySQL Car Data Analysis Project
 
 ## Overview
-This project focuses on analyzing car-related data using MySQL. The dataset includes details about various car models, their manufacturers, origin countries, prices, and performance metrics.
+This project focuses on analyzing data for cars sold the UAE using MySQL. The dataset includes details about various car models, their manufacturers, origin countries, prices, and performance metrics.
 
 ## Dataset
 The project uses a dataset containing information on cars, stored in:
@@ -40,10 +40,4 @@ SELECT manufacturer, COUNT(*) AS car_count FROM cars GROUP BY manufacturer ORDER
 
 ## Requirements
 - MySQL Server
-- Dataset (`cars.sql` and `cars_data.csv`)
-
-## How to Contribute
-Feel free to fork the repository, enhance queries, or add new analysis.
-
-## License
-This project is licensed under the MIT License.
+- Dataset (`cars.sql` and `cars_data.csv
