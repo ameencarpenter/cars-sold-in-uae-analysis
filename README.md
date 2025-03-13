@@ -41,3 +41,12 @@ SELECT manufacturer, COUNT(*) AS car_count FROM cars GROUP BY manufacturer ORDER
 ## Requirements
 - MySQL Server
 - Dataset (`cars.sql` and `cars_data.csv
+
+  ## Repository Structure
+```
+📂 cars-sold-in-uae-analysis
+ ├── 📄 README.md      # Project documentation
+ ├── 📂 data           # Folder containing raw and processed data
+ │   ├── 📄 cars.sql   # MySQL script for setting up the database
+ │   ├── 📄 data.csv   # CSV export of key data
+```
